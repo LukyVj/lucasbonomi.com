@@ -5,7 +5,21 @@
   font-weight: 400;
   src: url("../font/OpenSans-Regular.ttf") format("truetype");
 }
-
+/**
+  * Some vars
+  */
+/**
+ * Some mixins
+ */
+/**
+ * Style mixins
+*/
+/**
+ * Style buttons
+ */
+/**
+ * Base
+ */
 * {
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
@@ -34,7 +48,6 @@ body {
   transform-style: preserve-3d;
   -webkit-transform: perspective(300px);
   transform: perspective(300px);
-  overflow: hidden;
 }
 
 h1, h2, h3 {
