@@ -39,7 +39,7 @@ function initPoster(){
 
   //gradient angle and opacity
 //  $shine.css('background', 'linear-gradient(' + angle + 'deg, rgba(255,255,255,' + e.pageY / h + ') 0%,rgba(255,255,255,0) 80%)');
-  $('#dynastyle').text('.scene.shine:after {background: linear-gradient(' + angle + 'deg, rgba(255,255,255,' + (e.pageY / h) / 2 + ') 0%,rgba(255,255,255,0) 80%);transform: translateZ(-10px)}')
+  $('#dynastyle').text('.scene.shine:after {background: linear-gradient(' + angle + 'deg, rgba(255,255,255,' + (e.pageY / h) / 2 + ') 0%,rgba(255,255,255,0) 80%);transform: translateZ(-10px) scale(3)}')
   //poster transform
   $poster.css('transform', transformPoster);
 
